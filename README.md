@@ -1,54 +1,7 @@
-# Шпаргалка. 
-## Базовые команды в консоли bash
-### Навигация
-```bash
-pwd (от англ. print working directory, «показать рабочую папку») — покажи, в какой я папке;
+# Шпаргалка по Git
 
-ls (от англ. list directory contents, «отобразить содержимое директории») — покажи файлы и папки в текущей папке;
-
-ls -a — покажи также скрытые файлы и папки, названия которых начинаются с символа .;
-
-cd first-project (от англ. change directory, «сменить директорию») — перейди в папку first-project;
-
-cd first-project/html — перейди в папку html, которая находится в папке first-project;
-
-cd .. — перейди на уровень выше, в родительскую папку;
-
-cd ~ — перейди в домашнюю директорию (/Users/Username);
-
-cd / — перейди в корневую директорию.
-```
-----
-<br>
-
-### Работа с файлами и папками  
-#### Создание 
-```bash
-touch index.html (англ. touch, «коснуться») — создай файл index.html в текущей папке;
-
-touch index.html style.css script.js — если нужно создать сразу несколько файлов, можно напечатать их имена в одну строку через пробел;
-
-mkdir second-project (от англ. make directory, «создать директорию») — создай папку с именем second-project в текущей папке.
-```
-
-#### Копирование и перемещение
-```bash
-cp file.txt ~/my-dir (от англ. copy, «копировать») — скопируй файл в другое место;
-
-mv file.txt ~/my-dir (от англ. move, «переместить») — перемести файл или папку в другое место.
-```
-
-#### Чтение
-```bash
-cat file.txt (от англ. concatenate and print, «объединить и распечатать») — распечатай содержимое текстового файла file.txt.
-```
-
-#### Удаление
-```bash
-rm about.html (от англ. remove, «удалить») — удали файл about.html;
-
-rmdir images (от англ. remove directory, «удалить директорию») — удали папку images;
-
-rm -r second-project (от англ. remove, «удалить» + recursive, «рекурсивный») — удали папку second-project и всё, что она содержит.
-```
-
+## Навигация по шпаргалке::
+###  [Часть 1 - Базовые команды в консоли](https://github.com/Said9925/git_tutorial/blob/master/part_1.md "Часть 1") 
+### [Часть 2](https://github.com/Said9925/git_tutorial/blob/master/part_2.md "Часть 2") 
+### [Часть 3](https://github.com/Said9925/git_tutorial/blob/master/part_3.md "Часть 3") 
+### [Часть 4](https://github.com/Said9925/git_tutorial/blob/master/part_4.md "Часть 4") 
